@@ -1,0 +1,133 @@
+body{
+  width:50%;
+  margin:auto;
+}
+#images{
+  width: 150px;
+  height: 150px;
+  right:730px;
+  position :absolute;
+  top: 0;
+}
+.round{
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(146, 136, 136) ;
+  border-radius: 50%;
+  display: inline-flex;
+  background-color:rgb(206, 199, 199);
+}
+.round2{
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(146, 136, 136) ;
+  border-radius: 50%;
+  display: inline-flex;
+  background-color:rgb(206, 199, 199);
+}
+.items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+.vline{
+  border-left: 2px solid black;
+  height: 60px;
+  margin: 0 10px;
+  margin-left: 20px;
+}
+#status{
+ position: absolute;
+ top: 190px;
+ left: 560px;
+ margin-top: 6px;
+
+
+}
+#status1{
+   position: absolute;
+   top: 310px;
+   left: 560px;
+   margin-top: 6px;
+}
+#status2{
+  position: absolute;
+  top: 420px;
+  left: 560px;
+  margin-top: 6px;
+}
+button{
+  color: rgb(58, 190, 25);
+  border-color: chartreuse;
+  background-color: white;
+  
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 500px); 
+  gap: 10px;
+  padding: 10px;
+  justify-items: left;
+}
+
+.box {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  width: 400px;        
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+
+}
+
+.box img {
+  width: 45px;       
+}
+
+.box span {
+  font-size: 20px !important;  /* title smaller */
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.box pre {
+  white-space: normal;
+  font-size: 12px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.explore {
+  font-size: 14px;
+  color: rgb(120,120,120);
+  font-weight: 600;
+  cursor: pointer;
+}
+.box-container2{
+  display: grid;
+ grid-template-columns: repeat(2, 500px);
+
+  gap: 10px;
+  padding: 10px;
+  justify-items: left;
+}
+.Project-members {
+  display: flex;
+  justify-content:left;  /* one left, one right */
+}
+.Project-members button {
+  display: flex;
+  align-items: center;
+  gap: 8px;     /* image & text gap */
+}
+.zaf-tick{
+  color: green;
+  font-size: 25px;
+  top:200px;
+  
+}
+.zaf-help{
+  color: orangered;
+  font-size:25px ;
+}
